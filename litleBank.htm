@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Banque</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Mini Banque</h1>
+    <input type="number" id="amount" placeholder="Montant" />
+    <button onclick="deposit()">Dépôt</button>
+    <button onclick="withdraw()">Retrait</button>
+    <button onclick="showBalance()">Afficher le Solde</button>
+    <button onclick="showHistory()">Afficher l'Historique</button>
+    <div class="output" id="output"></div>
+    <div class="history" id="history"></div>
+  </div>
+
+  <script src="litleBank.js"></script>
+</body>
+</html>
