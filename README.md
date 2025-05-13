@@ -1,6 +1,8 @@
 # 💳 Mini Banque - Application Web
 
-Une application JavaScript simple mais puissante simulant les fonctionnalités de base d’un compte bancaire : **dépôt, retrait, consultation du solde et de l’historique**. Le tout dans une interface moderne, fluide et animée ✨.
+![Miniature du projet Mini Banque](./assets/mini-banque-thumbnail.png)
+
+Une petite application bancaire en JavaScript pur qui m’a permis de consolider mes compétences en DOM, validation de formulaires, logique métier, et closures. Conçue pour être simple, éducative, et interactive. 💡
 
 ---
 
@@ -25,19 +27,20 @@ Ce projet a été conçu pour :
 
 ---
 
-## 🖥️ Démo
-
-![mini banque gif ou vidéo démo ici]
+## 🚀 Fonctionnalités
+- 💰 Dépôt d’argent
+- 💸 Retrait avec vérification du solde
+- 📊 Affichage du solde actuel
+- 📜 Historique des transactions
+- ✅ Validation robuste des entrées
+- ✨ Interface animée et moderne
 
 ---
 
-## 🛠️ Fonctionnalités
-
-- ✅ Dépôt d’un montant
-- ✅ Retrait sécurisé avec vérification du solde
-- ✅ Affichage du solde actuel
-- ✅ Historique des transactions
-- ✅ Interface responsive et animée
+## 🧠 Ce que j’ai appris
+- Les **closures** en JavaScript à travers la gestion privée du solde
+- La manipulation du DOM pour des interactions dynamiques
+- Le design UI minimaliste et éducatif
 
 ---
 
@@ -54,12 +57,6 @@ Ce projet a été conçu pour :
 - Authentification simple
 - Export de l’historique (CSV / JSON)
 - Passage vers React.js + backend Node.js (API)
-
----
-
-## 📸 Capture d'écran
-
-![screenshot interface mini banque]
 
 ---
 
